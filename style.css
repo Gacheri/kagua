@@ -1,0 +1,142 @@
+#logo{
+	width: 7em;
+}
+#svg{
+	width: 1.5em;
+}
+.navbtn{
+	border-radius: 1.5em;
+	padding: .2em;
+	margin-top: 2em;
+	background-color: #bbbbbb00;
+}
+.navbtn:hover{
+	background-color: #FF6347;
+}
+@media only screen and (max-width: 600px) {
+  .right{
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mobile-nav{
+    display: none;
+  }
+.main-search-input{
+	display: inline-flex;
+}
+.main-search-input-item{
+	margin-top: 5em;
+	margin-left: 2em;
+}
+.searchbtn{
+	margin-top:4.5em;
+	margin-left: 2em;
+}
+}
+/*jumbotron*/
+.search-space{
+	height: 30em;
+	/*background-image: url(../images/landing-page.svg);
+	
+	object-fit: cover;
+	background-repeat: no-repeat;*/
+}
+.jumbo-text,h4{
+	color: rgba(255,255,255);
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+h2{
+	color: rgba(255,255,255);
+}
+input{
+	height: 4em;
+	width:20em;
+	margin-bottom: 2em !important;
+}
+.searchbtn{
+	border: 0em;
+	border-radius: 3em;
+	width: 8em;
+	background-color: #FF6347;
+	font-size: 18px;
+    font-weight: 600;
+    padding: 0 40px;
+    margin-right: 1px;
+    height: 50px;
+    outline: none;
+    color: rgba(255,255,255);
+}
+.rate{
+	margin-top: 8em;
+}
+/*popular categories*/
+#categories{
+	background-color: rgba(0,0,0,0.05);
+	padding-bottom:7em;
+	/*
+	display: flex;
+	display-content: center;
+	align-items: center;
+	height: 40em;*/
+}
+.headline{
+	text-align: center;
+	margin:2em;
+}
+.headline-with-separator{
+	font-weight:400;
+	margin:3em;
+}
+.category-small-box { 
+    background-color: #f2f2f2;
+    width: 20em;
+    height: 10em;
+    border-radius: 4px;
+    margin: 20px 0 0 20px;
+    padding: 20px 16px;
+    text-align: center;
+    color: #777;
+    transition: 0.4s;
+    transform: scale(1);
+    justify-content: center;
+    text-decoration: none !important;
+}
+a:hover
+{
+ background-color: tomato;  
+ color: rgba(255,255,255); 
+}
+
+a img{
+	height: 3.9em;
+}
+/*about*/
+.about{
+	display: inline-flex;
+}
+.about-img{
+	width:20em;
+}
+.socials{
+	display: inline-block;
+}
+.social-link{
+	border: 2em;
+	border-radius: 1em;
+	
+	height: 6em;
+	width: 6em;
+	display: flex;
+	align-items: center;
+	margin: 0em 2em 2em 0em;
+}
+.social-link:hover{
+	background-color: red;
+}
+#copyright{
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
