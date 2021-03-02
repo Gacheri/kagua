@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+html,body{
+	display: grid;
+	height:100%;
+	place-items:center;
+	text-align: center;
+	
+}
+.container{
+	width: 30em;
+	position: relative;
+	padding: 20px 30px;
+	border:1px solid rgba(4,4,4);
+	border-radius: 5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container .star-widget input{
+	display: none;
+}
+.star-widget label{
+	font-size: 2em;
+	color: rgba(4,4,4);
+	padding: 10px;
+	float: right;
+	transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+	color: rgba(255,221,68,1.00);
+}
+input:checked~label{
+	color: rgba(255,221,68,1.00);
+}
+input#rate-5:checked ~ label{
+	color: rgba(255,221,68,1.00);
+	text-shadow:0 0 20px rgba(153,85,34,0.50);
+}
+.container form{
+	display: none;
+}
+input:checked ~ form{
+	display: block;
+}
+.container .text{
+	font-size: 25px;
+	color:rgba(102,102,102);
+	font-weight: 500;
+
+}
+.container .exit{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 16px;
+	color:rgba(102,102,102);
+	font-weight: 500;
+	cursor: pointer;	
+}
+.container .post{
+	display: none;
+}
+form header{
+	width: 100%;
+	font-size:25px;
+	color:rgba(255,238,119,5.00);
+	font-weight: 500;
+	margin: 5px 0 20px 0;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+#rate-1:checked ~ form header:before{
+	content: "I hated it";
+}
+#rate-2:checked ~ form header:before{
+	content: "I did not like it";
+}
+#rate-3:checked ~ form header:before{
+	content: "I kind of liked it";
+}
+#rate-4:checked ~ form header:before{
+	content: "I liked it";
+}
+#rate-5:checked ~ form header:before{
+	content: "I loved it";
+}
+form .textarea{
+	height:100px;
+	width: 100%;
+	overflow: hidden;
+}
+form .textarea textarea{
+	height: 100%;
+	width: 100%;
+	outline:none;
+	color: rgba(0,0,0);
+	border: 1px solid rgba(	51,3,0);
+}
+form .btn{
+	height: 45px;
+	width: 100%;
+	margin:15px 0;
+}
+form .btn button{
+	height: 100%;
+	width:100%;
+	border: 1px solid rgba(	68,68,68);
+	outline: none;
+	background: rgba(51,3,0);
+	color:rgba(153,153,153); 
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+form .btn button:hover{
+	background:rgba(27,27,27);
+}

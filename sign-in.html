@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>SIGN IN PAGE</title>
+</head>
+<body>
+	<div class="container mt-5 p-5 d-flex justify-content-center align-items-center">
+		<div class='card w-75 shadow '>
+			<div  id='login'>
+				<div class='header'>
+  					<div class='sameRow reg centertext'><a href="#register">Register</a></div>
+  					<div class='sameRow row2 centertext'><a href="#login">Login</a></div>
+  				</div>
+				<div class='login'>
+  				<div class='centertext mt-5'>
+  					<h3>LOGIN</h3>
+  					<p>Please fill out the following fields to login:</p>
+  				</div>
+  				<div class='d-flex justify-content-center align-items-center'>
+  					<form class='form mb-5'>
+  						<label>Username:</label><br>
+  						<input type="text" name="name" class='input'><br>
+  						<label>Password:</label><br>
+  						<input type="password" name="pass" class='input'><br>
+  						<a href="#" class='btn btn-success'>LOGIN</a>	
+  					</form>		
+  				</div>		
+  			</div>
+			</div>
+			<div id='register'>
+				<div class='header'>
+  					<div class='sameRow row1 centertext'><a href="#register">Register</a></div>
+  					<div class='sameRow log centertext'><a href="#login">Login</a></div>
+  				</div>
+  			<div class='login'>
+  				<div class='centertext mt-5'>
+  					<h3>WELCOME</h3>
+  					<p>Please fill out the following fields to register as a new member:</p>
+  				</div>
+  				<div class='d-flex justify-content-center align-items-center'>
+  					<form class='form mb-5'>
+  						<label>Username:</label><br>
+  						<input type="text" name="name" class='input'><br>
+  						<label>Email:</label><br>
+  						<input type="email" name="mail" class='input'><br>
+  						<label>Password:</label><br>
+  						<input type="password" name="pass" class='input'><br>
+  						<a href="#" class='btn btn-success'>REGISTER</a>	
+  					</form>		
+  				</div>
+  			</div>	
+  			</div>
+		</div>	
+	</div>
+	<script>
+
+		const register=document.querySelector("#register");
+		const login=document.querySelector("#login");
+		const loginBtn=document.querySelector(".log");
+		const registerBtn=document.querySelector(".reg");
+
+		registerBtn.onclick = ()=>{
+			register.style.display="block";
+			login.style.display="none";
+		loginBtn.onclick=()=>{
+			register.style.display="none";
+			login.style.display="block";
+		}
+		return false;
+		}
+		
+	</script>
+</body>
+</html>
