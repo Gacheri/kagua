@@ -41,10 +41,6 @@
 /*jumbotron*/
 .search-space{
 	height: 30em;
-	/*background-image: url(../images/landing-page.svg);
-	
-	object-fit: cover;
-	background-repeat: no-repeat;*/
 }
 .jumbo-text,h4{
 	color: rgba(255,255,255);

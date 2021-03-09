@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="category.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' >
+</head>
+<body>
+	<div>
+		<div class='row shadow-sm'>
+			<div class='left ml-5'>
+				<a href="#"><img src="images/logo.png" id='logo' ></a>
+			</div>
+			<div class='mobile-nav'>
+				<img src="images/hamburger.svg" id='svg' style="margin-top: 2.7em; margin-left: 10em;">
+			</div>
+			<div class='right ml-auto mr-5'>
+				<a href="rating.html" class='mr-4'>Write a review</a>
+				<a href='#' class='mr-4'>Add Company</a>	
+				<a href='sign-in.html' class='mr-4'>Sig-In</a>	
+			</div>	
+		</div>
+
+		<!-- jumbotron -->
+		<div class='row  dark-overlay'>
+				<div class='container '>
+					<div class="row">
+						<div>
+							<div class="main-search-input">
+								<div class="main-search-input-item ">
+									<input type="text" placeholder="What are you looking for?" value=""/>
+								</div>
+								<div class="main-search-input-item location">
+									<div id="autocomplete-container">
+									<input id="autocomplete-input" type="text" placeholder="Location">
+								</div>
+								
+							</div>
+							<button class="button searchbtn" onclick="window.location.href='#'">Search</button>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!-- category results -->
+	<div class='row card'>
+		<div class="media p-1 m-5 h-100">
+            <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+              <img class="d-flex align-self-start" src="images/nairobi.jpg" alt="Generic placeholder image">
+            <div class="media-body pl-3 ">
+                <div class="title">BABY'S RESTAURANT<small>KANAIRO</small></div>
+                <div class='reviews'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                	<p>(20 REVIEWS)</p>
+                </div>
+                <div class="stats">
+                    <span><i class="fa fa-map-marker"></i>Koinange street</span>
+                </div>
+            </div>
+        </div>
+        		<div class="media p-1 m-5 h-100">
+            <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+              <img class="d-flex align-self-start" src="images/nairobi.jpg" alt="Generic placeholder image">
+            <div class="media-body pl-3 ">
+                <div class="title">BABY'S RESTAURANT<small>KANAIRO</small></div>
+                <div class='reviews'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                	<p>(20 REVIEWS)</p>
+                </div>
+                <div class="stats">
+                    <span><i class="fa fa-map-marker"></i>Koinange street</span>
+                </div>
+            </div>
+        </div>
+        		<div class="media p-1 m-5 h-100">
+            <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+              <img class="d-flex align-self-start" src="images/nairobi.jpg" alt="Generic placeholder image">
+            <div class="media-body pl-3 ">
+                <div class="title">BABY'S RESTAURANT<small>KANAIRO</small></div>
+                <div class='reviews'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                	<p>(20 REVIEWS)</p>
+                </div>
+                <div class="stats">
+                    <span><i class="fa fa-map-marker"></i>Koinange street</span>
+                </div>
+            </div>
+        </div>
+        		<div class="media p-1 m-5 h-100">
+            <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+              <img class="d-flex align-self-start" src="images/nairobi.jpg" alt="Generic placeholder image">
+            <div class="media-body pl-3 ">
+                <div class="title">BABY'S RESTAURANT<small>KANAIRO</small></div>
+                <div class='reviews'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                	<p>(20 REVIEWS)</p>
+                </div>
+                <div class="stats">
+                    <span><i class="fa fa-map-marker"></i>Koinange street</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- footer -->
+	<div class='container footer wrap'>
+		<div class='row'>
+			<img src="images/logo.png" id='logo' >
+		</div>
+		<div class='row'>
+			<div class='col-md-4 contacts'>
+				<strong><p>STAY IN TOUCH</p></strong>
+				<p>michenibrenda81@gmail.com</p>
+				<p>+254 992 389 95</p>
+				<p>356-00200</p>
+				<a href="" class='btn btn-success'>LOCATION</a>
+			</div>
+			<div class='col-md-5 subscribe'>
+				<strong><p>SUBSCRIBE TO OUR NEWSLETTER</p></strong>
+				<div class='form-group'>
+					<div>
+						<input type="text" name="name" placeholder="">
+						<input type="email" name="email" placeholder=""><br>
+						<button class='btn btn-danger'>SUBSCRIBE</button>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-3 socials'>
+				<strong><p>REACH US ON OUR SOCIALS</p></strong>
+				<div class='row'>
+				<a href="" class='social-link'><img src="images/whatsapp.svg" class='m-auto'></a>
+				<a href="" class='social-link'><img src="images/instagram.svg" class='m-auto'></a>
+				</div>
+				<div class='row'>
+				<a href="" class='social-link'><img src="images/twitter.svg" class='m-auto'></a>
+				<a href="" class='social-link'><img src="images/tik-tok.svg" class='m-auto'></a>
+				</div>
+			</div>
+		</div><hr>
+		<div class='row'>
+			<p id='copyright'>&#169;copyright KAGUA, 2021</p>
+		</div><hr>
+	</div>
+	<!-- scripts -->
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+		
+</body>
+</html>
