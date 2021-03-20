@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+	<link rel="stylesheet" href="css/main-color.css" id="colors">
+</head>
+<body>
+	<div>
+		<div class='row shadow-sm'>
+			<div class='left ml-5'>
+				<a href="index.html"><img src="images/logo.png" id='logo' ></a>
+			</div>
+			<div class='mobile-nav'>
+				<img src="images/hamburger.svg" id='svg' style="margin-top: 2.7em; margin-left: 10em;">
+			</div>
+			<div class='right ml-auto mr-5'>
+				<a href="index.html" class='mr-4'>Home</a>
+				<a href='#' class='mr-4'>Add Company</a>	
+				<a href='sign-in.html' class='mr-4'>Sig-In</a>	
+			</div>	
+		</div>
+
+		<!-- jumbotron -->
+		<nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Add a company</li>
+            </ol>
+          </nav>
+		<!-- categories section -->
+	</div>
+	<div class='container'> 
+        <div class='m-4 row'>
+            <h2>
+                Create your company here:
+            </h2>
+        </div>
+        <div class='container card shadow p-5 w-100'>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Company Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlFile1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Category</label>
+                    <select class="form-control-lg w-100">  
+                        <option>Academia</option>
+                        <option>Gym</option>
+                        <option>Hotel</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">County</label>
+                    <select class="form-control-lg w-100">  
+                        <option>Nairobi</option>
+                        <option>Mombasa</option>
+                        <option>Kisumu</option>
+                        <option>Eldoret</option>
+                        <option>Nakuru</option>
+                        <option>Nyeri</option>
+                        <option>Kilifi</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Phone Number</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter phone number">
+                  </div> 
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>   
+                <a href='category.html' class="btn btn-success" >Submit</a>
+            </form>
+        </div>
+		
+	</div>
+
+	<!-- How does this work? -->
+
+	<!-- footer -->
+	<div class='foot mt-5'>
+        <div class='container footer wrap'>
+            <div class='row'>
+                <img src="images/logo.png" id='logo' >
+            </div>
+            <div class='row'>
+                <div class='col-md-4 contacts'>
+                    <strong><p>STAY IN TOUCH</p></strong>
+                    <p>michenibrenda81@gmail.com</p>
+                    <p>+254 992 389 95</p>
+                    <p>356-00200</p>
+                    <a href="" class='btn btn-success'>LOCATION</a>
+                </div>
+                <div class='col-md-5 subscribe'>
+                    <strong><p>SUBSCRIBE TO OUR NEWSLETTER</p></strong>
+                    <div class='form-group'>
+                        <div>
+                            <input type="text" name="name" placeholder="">
+                            <input type="email" name="email" placeholder=""><br>
+                            <button class='btn btn-danger'>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-3 socials'>
+                    <strong><p>REACH US ON OUR SOCIALS</p></strong>
+                    <div class='row'>
+                    <a href="" class='social-link'><img src="images/whatsapp.svg" class='m-auto'></a>
+                    <a href="" class='social-link'><img src="images/instagram.svg" class='m-auto'></a>
+                    </div>
+                    <div class='row'>
+                    <a href="" class='social-link'><img src="images/twitter.svg" class='m-auto'></a>
+                    <a href="" class='social-link'><img src="images/tik-tok.svg" class='m-auto'></a>
+                    </div>
+                </div>
+            </div><hr>
+            <div class='row'>
+                <p id='copyright'>&#169;copyright KAGUA, 2021</p>
+            </div><hr>
+        </div>
+		
+	</div>
+	<!-- scripts -->
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+		
+</body>
+</html>

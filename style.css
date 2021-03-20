@@ -103,6 +103,9 @@ input{
     justify-content: center;
     text-decoration: none !important;
 }
+.category-small-box:hover{
+background-color: #FF6347;
+}
 a img{
 	height: 3.9em;
 }
@@ -148,7 +151,9 @@ a img{
 	border-right: 2px solid black;
 }
 .row1,.row2{
-	background-color: red;
+	background-color: rgba(192,192,192);
+	text-transform: none;
+	color:rgba(255,255,255);
 }
 .centertext{
 	text-align: center;
@@ -163,4 +168,31 @@ input{
  #register{
  	display: none;
  }
+ /* footer */
+ .foot{
+	 background-color: rgba(0,0,0);
+	 color: rgba(255,255,255);
+ }
+ .result-banner{
+	 text-align: center;
+ }
 
+ #singlelisting{
+	 display: block;
+	 color: inherit;
+ }
+ #listingimage{
+	 height: 30em;
+	 margin: 0;
+	 padding: 0;
+ }
+ #listing-landing-head{
+	 background-color: rgb(218, 214, 209,0.5);
+	 font-family: Georgia, 'Times New Roman', Times, serif;
+	 height: 10em;
+	 align-items: center;
+	 justify-content: center;
+	 letter-spacing: 1em;
+ }
+ .reviewpanel h5{
+	 font-family:Times New Roman;}
